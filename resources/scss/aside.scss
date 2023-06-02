@@ -1,0 +1,24 @@
+.aside{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 270px;
+    padding-top: 56px;
+
+    .aside__links{
+        margin-top: 15px;
+        display: block;
+
+        .aside__link{
+            padding: 15px 45px;
+
+            .link-main::before{
+                content: '';
+                background-image: url("../images/icons/home.svg");
+            }
+        }
+    }
+}
+
+

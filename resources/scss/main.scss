@@ -1,0 +1,21 @@
+body{
+    font-family: "Inter-Regular";
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#app > section{
+    margin-left: 270px;
+    background-color: $light-grey;
+    flex: 1 0 auto;
+}
+
+.container{
+    padding: 45px;
+}
