@@ -21,7 +21,7 @@ Route::namespace("App\Http\Controllers")->group(function () {
 
     });
 
-    Route::get('/home', HomeController::class)->name('home');
+    Route::get('/', HomeController::class)->name('home');
     Route::get('/schedule', ScheduleController::class)->name('schedule');
     Route::get('/homework', HomeworkController::class)->name('homework');
     Route::get('/performance', PerformanceController::class)->name('performance');

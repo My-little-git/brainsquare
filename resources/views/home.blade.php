@@ -5,7 +5,9 @@
 @section('content')
 
     <section id="home">
-        fdsfsdfs
+        <div class="container">
+            @include('layouts.partials.ad')
+        </div>
     </section>
 
 @endsection

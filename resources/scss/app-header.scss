@@ -18,7 +18,7 @@
         display: flex;
         align-items: center;
         padding: 8px 20px;
-        transition: .3s background-color, color ease-in;
+        transition: .3s background-color, border, color ease-in;
 
         &:hover{
             background-color: $accent;
@@ -26,8 +26,8 @@
         }
 
         &:active{
-            background-color: $dark-accent;
-            border-color: $dark-accent;
+            background-color: $dark2-accent;
+            border-color: $dark2-accent;
         }
     }
 }

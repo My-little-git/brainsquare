@@ -1,6 +1,6 @@
 <aside class="aside">
     <nav class="aside__links">
-        <a class="aside__link" href="{{ route('home') }}">
+        <a class="aside__link aside__link-active" href="{{ route('home') }}">
             <div class="link-main">Главная</div>
         </a>
         <a class="aside__link" href="{{ route('schedule') }}">
