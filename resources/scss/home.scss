@@ -1,0 +1,85 @@
+#home{
+
+    .ad__wrapper{
+        margin-bottom: 40px;
+    }
+
+    .events__titles{
+        font-family: 'Inter-ExtraLight';
+        padding-left: 20px;
+        margin-bottom: 25px;
+    }
+
+    .events__grid{
+        display: grid;
+        grid-template: 1fr / 120px 410px 400px 240px 1fr;
+    }
+
+    .events__day{
+        margin-bottom: 10px;
+        color: $dark1-grey;
+    }
+
+    .event__card{
+        padding: 15px 20px;
+        background-color: #fff;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        position: relative;
+
+        .lesson-type__icon{
+            margin-right: 10px;
+        }
+
+        .event__menu-button{
+            position: absolute;
+            outline: 0;
+            background: #ffffff url("../images/icons/three-dots.svg") no-repeat center center;
+            padding: 6px;
+            border: 0;
+            box-sizing: content-box;
+            width: 14px;
+            height: 14px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+
+            &:hover{
+                background-color: $grey;
+            }
+        }
+
+        .event__geo{
+            color: $dark2-accent;
+        }
+
+        .event__menu{
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: translateY(-110%);
+            background-color: $grey;
+            padding: 8px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+
+            a{
+                display: block;
+                padding: 10px 20px;
+                color: $black;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+
+                &:hover{
+                    background-color: $dark2-grey;
+                }
+            }
+        }
+    }
+}
