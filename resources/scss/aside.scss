@@ -62,8 +62,12 @@
             }
         }
 
-        .aside__link-active div::before{
-            filter: grayscale(0) !important;
+        .aside__link-active{
+            background-color: $light1-grey;
+
+            div::before{
+                filter: grayscale(0) !important;
+            }
         }
     }
 }

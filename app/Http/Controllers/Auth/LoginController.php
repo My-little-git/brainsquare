@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth\Login;
+namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 
-class IndexController extends Controller
+class LoginController extends Controller
 {
     public function __invoke()
     {

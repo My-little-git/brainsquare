@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::namespace("App\Http\Controllers")->group(function () {
+Route::group(['namespace' => 'App\Http\Controllers'], function () {
 
-    Route::namespace("Auth\Login")->group(function () {
+    Route::group(['namespace' => 'Auth', 'middleware' => 'guest'], function () {
 
-        Route::get('/login', IndexController::class)->name('login');
+        Route::get('/login', LoginController::class)->name('login');
 
     });
 
@@ -26,7 +26,7 @@ Route::namespace("App\Http\Controllers")->group(function () {
     Route::get('/homework', HomeworkController::class)->name('homework');
     Route::get('/performance', PerformanceController::class)->name('performance');
 
-    Route::namespace("Course")->group(function () {
+    Route::group(['namespace' => 'Course'], function () {
 
         Route::get('/courses', IndexController::class)->name('course.index');
 
