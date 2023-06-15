@@ -11,5 +11,9 @@
         "postcss": "^8.1.14",
         "sass": "^1.62.1",
         "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "nouislider": "^15.7.1",
+        "ts": "^0.2.2"
     }
 }
