@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    @include('layouts.partials.app-header')
+    @include('layouts.partials.auth-header')
 
     @yield('content')
 
